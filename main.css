@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+}
+
+nav {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  background: rgb(255, 200, 40);
+  align-items: center;
+  padding: 0 50px 0 100px;
+  flex-wrap: wrap;
+  text-align: center;
+  user-select: none;
+}
+
+nav .logo {
+  color: black;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  user-select: none;
+}
+
+.box {
+  border: 0.4px solid rgb(51, 151, 44);
+  position: relative;
+  top: 15vh;
+  margin: 14px;
+  padding: 3px;
+  border-radius: 13px;
+  box-shadow: #ebfff7 0px 14px 28px, rgb(197, 255, 198) 0px 10px 10px;
+  user-select: none;
+}
+
+.title {
+  text-align: center;
+  color: #1b1b1b;
+  font-size: 4vh;
+  user-select: none;
+}
+
+
+.form-field {
+  user-select: none;
+  margin-top: 9px;
+  display: block;
+  width: 100%;
+  padding: 8px 16px;
+  line-height: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: inherit;
+  border-radius: 6px;
+  -webkit-appearance: none;
+  color: #17d000;
+  border: 1px solid rgb(39, 255, 63);
+  background: #ebfff7;
+  transition: border .3s ease;
+}
+
+
+.form-group {
+  user-select: none;
+  position: relative;
+  display: flex;
+  width: 100%;
+
+}
+
+
+.btn {
+  user-select: none;
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  margin-top: 3vh;
+  margin: 2vh;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset, rgba(44, 187, 99, .15) 0 1px 2px, rgba(44, 187, 99, .15) 0 2px 4px, rgba(44, 187, 99, .15) 0 4px 8px, rgba(44, 187, 99, .15) 0 8px 16px, rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+
+  font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-left: 13%;
+  flex-direction: column;
+
+
+}
+
+.btn:hover {
+
+  box-shadow: rgba(44, 187, 99, .35) 0 -25px 18px -14px inset, rgba(44, 187, 99, .25) 0 1px 2px, rgba(44, 187, 99, .25) 0 2px 4px, rgba(44, 187, 99, .25) 0 4px 8px, rgba(44, 187, 99, .25) 0 8px 16px, rgba(44, 187, 99, .25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
+
+.bg {
+  position: relative;
+  left: 10vh;
+  user-select: none;
+}
